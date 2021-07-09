@@ -21,6 +21,11 @@
   text-align: center;
 }
 
+.imagewrap img{
+    width: 200px;
+  height: 152px;
+}
+
 .title {
   text-align: center;
   margin: 0px;

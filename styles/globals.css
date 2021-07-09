@@ -14,3 +14,64 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.rhap_container {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    font-family: inherit;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #0056FF !important;
+    -webkit-box-shadow: 0 0 0 0 rgb(0 0 0 / 20%) !important;
+    box-shadow: 0 0 0 0 rgb(0 0 0 / 20%) !important;
+}
+
+.rhap_progress-bar{
+  background-color: #0B478B !important;
+  
+}
+
+.rhap_progress-filled {
+  background-color: #F68B1F !important;
+}
+
+.rhap_progress-indicator{
+  background-color: #F68B1F !important;
+  color: #F68B1F !important;
+}
+
+
+.rhap_progress-bar-show-download{
+background-color: #0B478B !important;
+}
+
+.rhap_download-progress {
+background-color: #0B478B !important;
+}
+
+.rhap_time {
+  color: white !important;
+}
+
+.rhap_repeat-button {
+  color: white !important;
+}
+
+.rhap_main-controls-button {
+  color: white !important;
+}
+
+.rhap_volume-button {
+  color: white !important;
+}
+
+.rhap_volume-indicator {
+  background: white !important;
+}
+
+.rhap_volume-filled {
+  background-color: white !important;
+}

@@ -7,140 +7,175 @@
   /* height: 100vh; */
 }
 
-.header{
-    background-color: #F68B1F;
-    width: 100%;
+.header {
+  background-color: #f68b1f;
+  width: 100%;
 }
 
 .headertitle {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
 
-.leaderboard{
-    /* background-color: #F68B1F; */
-    background-image: url('/score1.png');
-    width: 100%;
-    height: 280px;
-      background-position: center;
+.leaderboard {
+  /* background-color: #F68B1F; */
+  background-image: url("/score1.png");
+  width: 100%;
+  height: 280px;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.main{
-    width: 100%;
-    background-color: #D4E5FF;
-    display: flex;
-    flex-direction: column;
-    padding: 20px 10px 20px 10px;
+.main {
+  width: 100%;
+  background-color: #d4e5ff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px 20px 10px;
 }
 
-.leadercard{
-    display: flex;
-    flex-direction: row;
-    background-color: white;
-    justify-content: space-between;
-    width: 100%;
-    margin-bottom: 15px;
-    border-radius: 18px;
--webkit-box-shadow: 5px 5px 15px -9px #000000; 
-box-shadow: 5px 5px 15px -9px #000000;
-/* padding-top: 8px;
+.mainwait {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px 20px 10px;
+}
+
+.leadercard {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 18px;
+  -webkit-box-shadow: 5px 5px 15px -9px #000000;
+  box-shadow: 5px 5px 15px -9px #000000;
+  /* padding-top: 8px;
 padding-bottom: 8px; */
-height: 100%;
+  height: 100%;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
-.leadercardprofile{
-    display: flex;
-    flex-direction: row;
-    padding-left: 25px;
+.leadercardprofile {
+  display: flex;
+  flex-direction: row;
+  padding-left: 25px;
 }
 
-
-
-.leadercardprofilenum{
-    padding-right: 30px;
-    font-size: 20px;
-    font-weight: 800;
-    
+.leadercardprofilenum {
+  padding-right: 30px;
+  font-size: 16px;
+  font-weight: 800;
 }
 
-.leadercardprofilename{
-        font-size: 20px;
-    padding-left: 20px;
-    font-weight: 400;
-    color: #757575;
-        
+.leadercardprofilename {
+  font-size: 16px;
+  padding-left: 20px;
+  font-weight: 400;
+  color: #757575;
 }
 
-.leadercardscore{
-    padding-right: 25px;
+.leadercardscore {
+  padding-right: 25px;
 }
 
-.leadercardscore p{
-    color: #0056FF;
-    font-weight: 800;
-    font-size: 20px;
+.leadercardscore p {
+  color: #0056ff;
+  font-weight: 800;
+  font-size: 16px;
 }
 
-
-.nowleadercard{
-    display: flex;
-    flex-direction: row;
-    background-color: #0057FF;
-    justify-content: space-between;
-    width: 100%;
-    margin-bottom: 15px;
-    border-radius: 18px;
--webkit-box-shadow: 5px 5px 15px -9px #000000; 
-box-shadow: 5px 5px 15px -9px #000000;
-/* padding-top: 8px;
+.nowleadercard {
+  display: flex;
+  flex-direction: row;
+  background-color: #0057ff;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 18px;
+  -webkit-box-shadow: 5px 5px 15px -9px #000000;
+  box-shadow: 5px 5px 15px -9px #000000;
+  /* padding-top: 8px;
 padding-bottom: 8px; */
-height: 100%;
+  height: 100%;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
-.nowleadercardprofile{
-    display: flex;
-    flex-direction: row;
-    padding-left: 25px;
+.nowleadercardprofile {
+  display: flex;
+  flex-direction: row;
+  padding-left: 25px;
 }
 
-
-
-.nowleadercardprofilenum{
-    padding-right: 30px;
-    font-size: 20px;
-    font-weight: 800;
-    color: white;
-    
+.nowleadercardprofilenum {
+  padding-right: 30px;
+  font-size: 16px;
+  font-weight: 800;
+  color: white;
 }
 
-.nowleadercardprofilename{
-        font-size: 20px;
-    padding-left: 20px;
-    font-weight: 500;
-    color: white;
+.nowleadercardprofilename {
+  font-size: 16px;
+  padding-left: 20px;
+  font-weight: 500;
+  color: white;
 }
 
-.nowleadercardscore{
-    padding-right: 25px;
+.nowleadercardscore {
+  padding-right: 25px;
 }
 
-.nowleadercardscore p{
-    color: #0056FF;
-    font-weight: 800;
-    color: white;
-    font-size: 20px;
+.nowleadercardscore p {
+  color: #0056ff;
+  font-weight: 800;
+  color: white;
+  font-size: 16px;
 }
 
-.imagewrap{
-    display: flex;
+.imagewrap {
+  display: flex;
   justify-content: center;
   align-items: center;
-  
-    
 }
 
-.imagewrap img{
-    vertical-align: middle;
+.imagewrap img {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+}
+
+.containerwait {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.titlewait a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.titlewait a:hover,
+.titlewait a:focus,
+.titlewait a:active {
+  text-decoration: underline;
+}
+
+.titlewait {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.titlewait,
+.description {
+  text-align: center;
 }

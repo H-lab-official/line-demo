@@ -3,18 +3,50 @@ import Image from "next/image";
 import styles from "../styles/Register.module.css";
 import firebase from "../config/firebase";
 import React, { useState, useEffect } from "react";
+// import liff from "@line/liff";
 
 export default function Register() {
   const [triggerpermission, setTriggerpermission] = useState(0);
   const [typeid, setTypeid] = useState(1);
   const [nowpage, setNowpage] = useState(0);
+  const lineliff_init = async() =>{
+    const liff = (await import("@line/liff")).default;
+          liff.ready.then(async () => {
+            if (liff.isLoggedIn()) {
+               const profile = await liff.getProfile();
+              //  alert("สวัสดี คุณ "+profile.displayName+" !!");
+            } else {
+              liff.login();
+            }
+          });
+          await liff.init({ liffId: "1656198560-ZDDm059o" });
+  }
   useEffect(() => {
+    lineliff_init();
     setNowpage(0);
   }, []);
 
+async function sendMsg() {
+  try {
+    //  await liff.sendMessages([
+    //    {
+    //      type: "text",
+    //      text: "ลงทะเบียนเรียบร้อย!!",
+    //    }
+    //  ]);
+     liff.closeWindow();
+  } catch (error) {
+    alert(error);
+  }
+  
+}
+
   const okHandle = () =>{
       //close liff
-      alert("close Liff")
+
+      
+      sendMsg();
+
   }
 
   const submitHandle = () => {
@@ -44,12 +76,14 @@ export default function Register() {
         {nowpage == 0 ? (
           <>
             <div className={styles.imagewrap}>
-              <Image
-                src="/logo.png"
+              {/* <Image
+              src="/logo.png"
                 alt="Picture of the author"
                 width={200}
                 height={152}
-              />
+                priority={true}
+              /> */}
+              <img src="/logo.png"></img>
             </div>
             <div className={styles.titlewrap}>
               <p className={styles.title}>Welcome to ttb club</p>
@@ -62,7 +96,7 @@ export default function Register() {
                 className={styles.field__input}
                 type="text"
                 name="name"
-                placeholder="Name"
+                placeholder=""
               />
               <p className={styles.labeltitle}>Position</p>
               <select
@@ -71,16 +105,12 @@ export default function Register() {
                 name="position"
               >
                 <option className={styles.option} value="0">
-                  Position
                 </option>
                 <option className={styles.option} value="1">
-                  Position1
+                  RM 1
                 </option>
                 <option className={styles.option} value="1">
-                  Position2
-                </option>
-                <option className={styles.option} value="1">
-                  Position3
+                  RM 2
                 </option>
               </select>
               <p className={styles.labeltitle}>Birthdate</p>
@@ -99,12 +129,14 @@ export default function Register() {
         ) : (
           <>
             <div className={styles.imagewrap}>
-              <Image
-                src="/logo.png"
+              {/* <Image
+              src="/logo.png"
                 alt="Picture of the author"
                 width={200}
                 height={152}
-              />
+                priority={true}
+              /> */}
+              <img src="/logo.png"></img>
             </div>
             <div className={styles.titlewrap2}>
               <h1 className={styles.title2}>Great!</h1>

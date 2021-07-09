@@ -1,0 +1,175 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  background-color: #0056FF;
+}
+
+.header{
+    background-color: #F68B1F;
+    width: 100%;
+}
+
+.headertitle {
+    color: white;
+    text-align: center;
+}
+
+
+.main {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titlewrap{
+    color: white;
+    text-align: center;
+}
+
+.musicplayerwrap{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 40px;
+}
+
+.playerwrap{
+    width: 80%;
+    padding-bottom: 40px;
+}
+
+.imgwrap{
+    text-align: center;
+}
+
+.imgwrap img{
+    border-radius: 15px;
+}
+
+.imgwrapz{
+    text-align: center;
+}
+
+.imgwrapz img{
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+}
+
+.rhap_button-clear {
+  outline: 0;
+}
+
+.playerlist{
+    background-color: #E7F0FF;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    /* height: 60vh; */
+}
+.playerlisthead{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #0B478B;
+    width: 100%;
+}
+
+.playerlisthead h3{
+    color: #0B478B;
+    padding-left: 8px;
+    /* margin: 0px; */
+}
+
+.playerlistrows{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.playerlistrow{
+    display: flex;
+    flex-direction: row;
+     justify-content: space-between;
+     border-style: solid;
+     border-width: 0 0 1px 0;
+     border-color: #8bb2ff;
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+
+.playerlistrowtitle{
+    margin: 0px;
+    margin-bottom: 5px;
+    color:#003eb9;
+}
+
+.playerlistrow p{
+    font-weight: 300;
+}
+
+.playerlistrowleft{
+    display: flex;
+    flex-direction: column;
+}
+
+.playerlistrowright{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color:#003eb9;
+}
+
+.playerlistrowright p{
+    margin: 0;
+    font-weight: 300;
+}
+
+.playerlistrowleftactive .playerlistrowtitle{
+    color: #F78A1F;
+}
+
+.playerlistrowrightactive p{
+    color: #F78A1F;
+    font-weight: 600;
+}
+
+.containerwait{
+      min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.titlewait a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.titlewait a:hover,
+.titlewait a:focus,
+.titlewait a:active {
+  text-decoration: underline;
+}
+
+.titlewait {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.titlewait,
+.description {
+  text-align: center;
+}
