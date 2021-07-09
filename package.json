@@ -3,18 +3,31 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "clean": "rimraf nextjs/",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "predeploy": "npm run clean && next build",
+    "deploy": "firebase deploy --only functions:nextjs,hosting"
   },
   "dependencies": {
+    "@line/liff": "^2.11.1",
+    "firebase": "^8.7.1",
+    "firebase-admin": "^9.10.0",
+    "firebase-functions": "^3.14.1",
     "next": "11.0.1",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
     "eslint": "7.30.0",
-    "eslint-config-next": "11.0.1"
+    "eslint-config-next": "11.0.1",
+    "firebase-functions-test": "^0.3.0",
+    "rimraf": "^3.0.2",
+    "shelljs": "^0.8.4"
+  },
+  "main": "server.js",
+  "engines": {
+    "node": "14"
   }
 }
