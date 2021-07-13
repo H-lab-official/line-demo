@@ -1,16 +1,20 @@
 .container {
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  right: 0; */
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  height: 100vh;
+  height: 100%;
   background: rgb(6, 86, 239);
   background: linear-gradient(
     180deg,
     rgba(6, 86, 239, 1) 0%,
-    rgba(31, 124, 251, 1) 35%,
+    rgba(31, 124, 251, 1) 60%,
     rgba(102, 218, 255, 1) 100%
   );
   padding-top: 100px;
@@ -32,6 +36,7 @@
   padding: 0px;
   color: rgb(226, 226, 226);
   font-size: 16px;
+  font-family: 'Prompt', sans-serif;
 }
 
 .field__input {
@@ -116,7 +121,7 @@
     color: rgb(255, 255, 255);
       font-weight: 800;
       font-size: 18px;
-      margin-top: 30px;
+      margin-top: 20px;
       margin-bottom: 10px;
 }
 
@@ -134,6 +139,8 @@
       -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+
+  margin-bottom : 40px;
 }
 
 

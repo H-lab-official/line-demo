@@ -91,7 +91,7 @@ async function sendMsg() {
             </div>
 
             <div className={styles.inputwrap}>
-              <p className={styles.labeltitle}>Name</p>
+              <p className={styles.labeltitle}>Employee no.</p>
               <input
                 className={styles.field__input}
                 type="text"
@@ -104,8 +104,7 @@ async function sendMsg() {
                 onChange={dropdownHandle}
                 name="position"
               >
-                <option className={styles.option} value="0">
-                </option>
+                <option className={styles.option} value="0"></option>
                 <option className={styles.option} value="1">
                   RM 1
                 </option>
