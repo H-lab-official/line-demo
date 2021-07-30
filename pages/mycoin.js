@@ -80,13 +80,17 @@ export default function Home() {
                       <img src="/coinicon2.png"></img>
                     </div>
                     <div className={styles.textwrap}>
-                      <p className={styles.textpodcast}>
+                      <p>
+                        <span>Podcast</span> ฟังและตอบคำถามชิงรางวัล วันที่{" "}
+                        <span>12 Aug 2021</span>
+                      </p>
+                      {/* <p className={styles.textpodcast}>
                         <span>Podcast</span>
                       </p>
                       <p className={styles.textmainpodcast}>
-                        ฟังคลิปเสียงและตอบคำถามชิงรางวัลวันที่
+                        ฟังและตอบคำถามชิงรางวัล วันที่
                         <span> 12 Aug 2021</span>
-                      </p>
+                      </p> */}
                     </div>
                     <div className={styles.bluewrap}>
                       <p>100 Coins</p>
@@ -119,13 +123,17 @@ export default function Home() {
                       <img src="/coinicon2.png"></img>
                     </div>
                     <div className={styles.textwrap}>
-                      <p className={styles.textpodcast}>
+                      <p>
+                        <span>Podcast</span> ฟังและตอบคำถามชิงรางวัล วันที่{" "}
+                        <span>12 Aug 2021</span>
+                      </p>
+                      {/* <p className={styles.textpodcast}>
                         <span>Podcast</span>
                       </p>
                       <p className={styles.textmainpodcast}>
-                        ฟังคลิปเสียงและตอบคำถามชิงรางวัลวันที่
+                        ฟังและตอบคำถามชิงรางวัล วันที่
                         <span> 12 Aug 2021</span>
-                      </p>
+                      </p> */}
                     </div>
                     <div className={styles.bluewrap}>
                       <p>100 Coins</p>
@@ -158,13 +166,59 @@ export default function Home() {
                       <img src="/coinicon2.png"></img>
                     </div>
                     <div className={styles.textwrap}>
-                      <p className={styles.textpodcast}>
+                      <p>
+                        <span>Podcast</span> ฟังและตอบคำถามชิงรางวัล วันที่{" "}
+                        <span>12 Aug 2021</span>
+                      </p>
+                      {/* <p className={styles.textpodcast}>
                         <span>Podcast</span>
                       </p>
                       <p className={styles.textmainpodcast}>
-                        ฟังคลิปเสียงและตอบคำถามชิงรางวัลวันที่
+                        ฟังและตอบคำถามชิงรางวัล วันที่
                         <span> 12 Aug 2021</span>
+                      </p> */}
+                    </div>
+                    <div className={styles.bluewrap}>
+                      <p>100 Coins</p>
+                    </div>
+                  </div>
+                  <div className={styles.leadercard}>
+                    <div className={styles.imagewrap}>
+                      <img src="/coinicon1.png"></img>
+                    </div>
+                    <div className={styles.textwrap}>
+                      {/* <p className={styles.textpodcast}>
+                        <span>Popquiz</span>
                       </p>
+                      <p className={styles.textmainpodcast}>
+                        ตอบคำถามชิงรางวัล วันที่ <span>12 Aug 2021</span>
+                      </p> */}
+                      <p>
+                        <span>Popquiz</span> ตอบคำถามชิงรางวัล วันที่{" "}
+                        <span>12 Aug 2021</span>
+                      </p>
+                    </div>
+                    <div className={styles.bluewrap}>
+                      <p>100 Coins</p>
+                    </div>
+                  </div>
+
+                  <div className={styles.leadercard}>
+                    <div className={styles.imagewrap}>
+                      <img src="/coinicon2.png"></img>
+                    </div>
+                    <div className={styles.textwrap}>
+                      <p>
+                        <span>Podcast</span> ฟังและตอบคำถามชิงรางวัล วันที่{" "}
+                        <span>12 Aug 2021</span>
+                      </p>
+                      {/* <p className={styles.textpodcast}>
+                        <span>Podcast</span>
+                      </p>
+                      <p className={styles.textmainpodcast}>
+                        ฟังและตอบคำถามชิงรางวัล วันที่
+                        <span> 12 Aug 2021</span>
+                      </p> */}
                     </div>
                     <div className={styles.bluewrap}>
                       <p>100 Coins</p>
@@ -197,13 +251,60 @@ export default function Home() {
                       <img src="/coinicon2.png"></img>
                     </div>
                     <div className={styles.textwrap}>
-                      <p className={styles.textpodcast}>
+                      <p>
+                        <span>Podcast</span> ฟังและตอบคำถามชิงรางวัล วันที่{" "}
+                        <span>12 Aug 2021</span>
+                      </p>
+                      {/* <p className={styles.textpodcast}>
                         <span>Podcast</span>
                       </p>
                       <p className={styles.textmainpodcast}>
-                        ฟังคลิปเสียงและตอบคำถามชิงรางวัลวันที่
+                        ฟังและตอบคำถามชิงรางวัล วันที่
                         <span> 12 Aug 2021</span>
+                      </p> */}
+                    </div>
+                    <div className={styles.bluewrap}>
+                      <p>100 Coins</p>
+                    </div>
+                  </div>
+
+                  <div className={styles.leadercard}>
+                    <div className={styles.imagewrap}>
+                      <img src="/coinicon1.png"></img>
+                    </div>
+                    <div className={styles.textwrap}>
+                      {/* <p className={styles.textpodcast}>
+                        <span>Popquiz</span>
                       </p>
+                      <p className={styles.textmainpodcast}>
+                        ตอบคำถามชิงรางวัล วันที่ <span>12 Aug 2021</span>
+                      </p> */}
+                      <p>
+                        <span>Popquiz</span> ตอบคำถามชิงรางวัล วันที่{" "}
+                        <span>12 Aug 2021</span>
+                      </p>
+                    </div>
+                    <div className={styles.bluewrap}>
+                      <p>100 Coins</p>
+                    </div>
+                  </div>
+
+                  <div className={styles.leadercard}>
+                    <div className={styles.imagewrap}>
+                      <img src="/coinicon2.png"></img>
+                    </div>
+                    <div className={styles.textwrap}>
+                      <p>
+                        <span>Podcast</span> ฟังและตอบคำถามชิงรางวัล วันที่{" "}
+                        <span>12 Aug 2021</span>
+                      </p>
+                      {/* <p className={styles.textpodcast}>
+                        <span>Podcast</span>
+                      </p>
+                      <p className={styles.textmainpodcast}>
+                        ฟังและตอบคำถามชิงรางวัล วันที่
+                        <span> 12 Aug 2021</span>
+                      </p> */}
                     </div>
                     <div className={styles.bluewrap}>
                       <p>100 Coins</p>

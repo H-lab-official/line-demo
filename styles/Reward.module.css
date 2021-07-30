@@ -25,15 +25,23 @@
 
 .leaderboard {
 
-  background-image: url("/rewardcover.png");
+  /* background-image: url("/rewardcover.png");
   width: 100%;
-  height: 300px;
+  height: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #F2F2F2; */
+}
+.leaderboard {
+  display: flex;
+  flex: 1;
   background-color: #F2F2F2;
 }
-
+.leaderboard img{
+  width: 100%;
+  height:auto;
+}
 
 .main {
   width: 100%;
@@ -222,7 +230,7 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orient
 
 .contentwrapp{
     margin-top: 5px !important;
-    font-size: 10px !important;
+    font-size: 9px !important;
 }
 
 .row1 .header{

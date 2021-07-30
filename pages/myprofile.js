@@ -52,7 +52,9 @@ export default function Home() {
                 <div className={styles.header}>
                   <h4 className={styles.headertitle}>PROFILE</h4>
                 </div>
-                <div className={styles.leaderboard}></div>
+                <div className={styles.leaderboard}>
+                  <img src="/profilecover.jpg"></img>
+                </div>
                 <main className={styles.main}>
                   <div className={styles.section1}>
                     <div className={styles.row1}>
@@ -61,17 +63,14 @@ export default function Home() {
                           <h4>PC</h4>
                         </div>
                         <div className={styles.content}>
-                          <h4 className={styles.firstcontent}>19</h4>
-                          <h4 className={styles.secondcontent}>100,000</h4>
-                        </div>
-                      </div>
-                      <div className={styles.col2}>
-                        <div className={styles.header}>
-                          <h4>CASE</h4>
-                        </div>
-                        <div className={styles.content}>
-                          <h4 className={styles.firstcontent}>10</h4>
-                          <h4 className={styles.secondcontent}>100,000</h4>
+                          <div className={styles.leftcontent}>
+                            <h2 className={styles.leftcontent1}>19</h2>
+                            <h3 className={styles.leftcontent2}>Ranking</h3>
+                          </div>
+                          <div className={styles.rightcontent}>
+                            <h2 className={styles.rightcontent1}>100,000</h2>
+                            <h3 className={styles.rightcontent2}>Score</h3>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -85,7 +84,6 @@ export default function Home() {
                         </div>
                         <div className={styles.goldwrap}>
                           <h1>190</h1>
-                          <p>Gold level</p>
                         </div>
                       </div>
                     </div>

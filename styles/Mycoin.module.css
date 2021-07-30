@@ -49,15 +49,15 @@
   background-color: white;
   justify-content: space-between;
   width: 100%;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   border-radius: 18px;
   -webkit-box-shadow: 5px 5px 15px -9px #000000;
   box-shadow: 0px 0px 15px -9px #000000;
   /* padding-top: 8px;
 padding-bottom: 8px; */
   height: 100%;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  /* padding-top: 4px;
+  padding-bottom: 4px; */
   align-items: center;
   padding-left: 15px;
   padding-right: 15px;
@@ -150,8 +150,7 @@ padding-bottom: 8px; */
 }
 
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px)
-and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orientation:portrait)
+@media only screen and (max-width: 412px)
 {
 
     .leaderboard {
@@ -172,16 +171,19 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orient
 }
    .textwrap p{
     color: #0E2C5F;
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .textwrap p span{
     font-weight: 400;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .bluewrap p{
     text-align: center;
     font-size: 12px;
+}
+.leadercard{
+  /* background-color: red; */
 }
 }

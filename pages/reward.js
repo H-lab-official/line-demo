@@ -52,7 +52,9 @@ export default function Home() {
                 <div className={styles.header}>
                   <h4 className={styles.headertitle}>REWARD</h4>
                 </div>
-                <div className={styles.leaderboard}></div>
+                <div className={styles.leaderboard}>
+                  <img src="/rewardcover2.jpg"></img>
+                </div>
                 <main className={styles.main}>
                   <div className={styles.row1}>
                     <div className={styles.col1}>
@@ -68,7 +70,7 @@ export default function Home() {
                             Expired : 19 Sep 2021
                           </h4>
                           <p className={styles.contentwrapp}>
-                            แลกรับบัตรส่วนลด Lazada 1,000 บาท
+                            แลกรับตั๋วเครื่องบิน ไป-กลับ ภูเก็ต
                           </p>
                           <div className={styles.bluewrap}>
                             <h4>Redeem</h4>
@@ -89,7 +91,7 @@ export default function Home() {
                             Expired : 19 Sep 2021
                           </h4>
                           <p className={styles.contentwrapp}>
-                            แลกรับบัตรส่วนลด Lazada 1,000 บาท
+                            แลกรับชุดหม้อทอดสแตนเลส seabra
                           </p>
                           <div className={styles.bluewrap}>
                             <h4>Redeem</h4>
@@ -113,7 +115,7 @@ export default function Home() {
                             Expired : 19 Sep 2021
                           </h4>
                           <p className={styles.contentwrapp}>
-                            แลกรับบัตรส่วนลด Lazada 1,000 บาท
+                            แลกรับตั๋วเครื่องบิน ไป-กลับ ภูเก็ต
                           </p>
                           <div className={styles.bluewrap}>
                             <h4>Redeem</h4>
@@ -134,7 +136,7 @@ export default function Home() {
                             Expired : 19 Sep 2021
                           </h4>
                           <p className={styles.contentwrapp}>
-                            แลกรับบัตรส่วนลด Lazada 1,000 บาท
+                            แลกรับชุดหม้อทอดสแตนเลส seabra
                           </p>
                           <div className={styles.bluewrap}>
                             <h4>Redeem</h4>
